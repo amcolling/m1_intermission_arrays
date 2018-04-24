@@ -23,12 +23,13 @@ hedgies[3]
 hedgies.empty?
 #will return false, as this array is not empty
 hedgies.at[5]
-#
+#returns the element at the specific index called in the argument = "Margo"
 hedgies.unshift("Bella")
 #will add "Bella" to the beginning of an array
 hedgies.insert(6, "Onyx")
 #inserts "Onyx" into the 6th position in the hedgies array
 hedgies.compact
+#removes all nil elements from the array
 
 hedgies.pop
 #removes the last item in the array
